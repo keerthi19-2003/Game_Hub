@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa94a81640204e4995e5b4b29fc8464, type: 3}
+  m_Name: AudioMap_default
+  m_EditorClassIdentifier: 
+  events:
+  - name: EVENT_MUNCH_PELLETS
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 77cad99e5d3dcc84fa9a393556948686, type: 3}
+    - {fileID: 8300000, guid: ad36da205c7352342b0df93488308d56, type: 3}
+    method: 1
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+  - name: EVENT_DEATH
+    type: 3
+    clips:
+    - {fileID: 8300000, guid: cf7d65fb0355de54ca489066734259ee, type: 3}
+    - {fileID: 8300000, guid: ae7dbceb325200440863ad2dd7f438dd, type: 3}
+    - {fileID: 8300000, guid: ae7dbceb325200440863ad2dd7f438dd, type: 3}
+    method: 3
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+  - name: EVENT_MUNCH_FRUIT
+    type: 2
+    clips:
+    - {fileID: 8300000, guid: 6afc0eea721a11c48ad229cca6f7cb45, type: 3}
+    method: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+  - name: EVENT_EXTRA_LIFE
+    type: 4
+    clips:
+    - {fileID: 8300000, guid: afbe02f5e4ef5f84fbf0874163617133, type: 3}
+    method: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+  - name: EVENT_EAT_GHOST
+    type: 5
+    clips:
+    - {fileID: 8300000, guid: b4a6ccc16a4f61e42b4a58426e5a67ad, type: 3}
+    method: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+  - name: EVENT_MUNCH_POWER
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: b4a6ccc16a4f61e42b4a58426e5a67ad, type: 3}
+    method: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
